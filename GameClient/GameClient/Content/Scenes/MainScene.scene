@@ -1,0 +1,105 @@
+{
+	"ID": "f059105d4657953da02e098bbc2d5001",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6224,
+	"Data": [
+		{
+			"ID": "f059105d4657953da02e098bbc2d5001",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "3028c2ea4dc77610413494af137d000f",
+			"TypeName": "Game.Network",
+			"ParentID": "f059105d4657953da02e098bbc2d5001",
+			"V": {}
+		},
+		{
+			"ID": "73fec64845cb3118f30e48b5055164b5",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "f059105d4657953da02e098bbc2d5001",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			}
+		},
+		{
+			"ID": "128f8278403bbea8d591cba43434b424",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "f059105d4657953da02e098bbc2d5001",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "73fec64845cb3118f30e48b5055164b5"
+		},
+		{
+			"ID": "59c1e57447b27c2283d7c7957f545794",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "f059105d4657953da02e098bbc2d5001",
+			"Name": "SkyLight",
+			"Brightness": 2.5,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "3feaa680421a1b2c85117d8fe8da5072",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "f059105d4657953da02e098bbc2d5001",
+			"Name": "Floor",
+			"Transform": {
+				"Scale": {
+					"X": 4.0,
+					"Y": 0.5,
+					"Z": 4.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "1771b53343d461faacdf2c8581b1fdbb",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "954bf9b248edd984f89db788a9d396a6",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "f059105d4657953da02e098bbc2d5001",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": -300.0
+				}
+			}
+		}
+	]
+}

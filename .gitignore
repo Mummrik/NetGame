@@ -76,3 +76,4 @@ _ReSharper*/
 
 # Ignore Nuget packages folder
 packages/
+Include/
